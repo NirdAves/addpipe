@@ -19,6 +19,7 @@ This three-step solution for fixing this bug by modifying Xmodmap comes from <b>
 
  ### Second -- replace current keycode 94 assignment with backslash and bar
      $ sed 's%keycode  94 = less greater less greater bar brokenbar bar%keycode  94 = backslash bar backslash bar%g' .Xmodmap > .XmodmapChanged
+Note: Keycode 94 is set to the backslash bar key on the Librem v4; however, that key may have a differnt keycode on other divices. Use xev to determine the actual keycode number of the key you wish to modify. 
 
  ### Third -- apply the modified keycode assignment to the OS
      $ xmodmap .XmodmapChanged
