@@ -12,16 +12,16 @@
 #         https://wiki.archlinux.org/title/Keyboard_input#Identifying_keycodes_in_Xorg
 
 # Note: The remapped keyboard will be persistent, 
-    # but will be need to be repeated everytime an OS in installed, including virtual machines
+    # but will be need to be repeated every time an OS in installed, including virtual machines
 
 # ASCII art from https://textfancy.com/multiline-text-art/
 
-# Intorductory text
+# Introductory text
 echo " _           _    _  __"
 echo "|_| _| _|   |_) .|_)|_ "
 echo "| |(_|(_|   |   ||  |__"
 echo ""
-echo "A NERDBIRD shell script (v 1.0):"
+echo "A NERDBIRD shell script (v. 1.0):"
 echo ""
 echo "          ... to add backslash (/) and bar (|) to Purism Librem laptops"
 sleep 3
