@@ -9,7 +9,7 @@
 
 # This solution comes from:
 #     https://forum.qubes-os.org/t/no-pipe-symbol-on-purism-with-qubes-r4-0/3569
-#         https://wiki.archlinux.org/title/Keyboard_input#Identifying_keycodes_in_Xorg
+#         https://wiki.archlinux.org/title/Xmodmap
 
 # Note: The remapped keyboard will be persistent, 
     # but will be need to be repeated every time an OS in installed, including virtual machines
