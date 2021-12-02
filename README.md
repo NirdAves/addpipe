@@ -1,6 +1,6 @@
 # Add Pipe
 ## Keybord bug: no pipe symbol on some Pruism Librem laptop keyboards
-The Add Pipe bash script is designed to correct the problem of no pipe symbol being recognized on certain Purism Librem laptops described here:<br>
+The Add Pipe bash shell script is designed to correct the problem of no pipe symbol being recognized on certain Purism Librem laptops described here:<br>
 &#8226; https://forums.puri.sm/t/keyboard-layout-unable-to-recognize-pipe/2022<br>
 <br>
 The bug is that when pressing the pipe key (aka the backslash \ and bar key | ) the keyboard outputs are the less than < and greater than > sympbols.<br>
@@ -8,7 +8,7 @@ The bug is that when pressing the pipe key (aka the backslash \ and bar key | ) 
 &#8226; Purism Librem 13 Version 2 <br>
 &#8226; Purism Librem 13 Version 3 <br>
 &#8226; Purism Librem 13 Version 4 <br>
-The Add Pipe script has only been tested on Version 4.
+This Add Pipe script has only been tested on Version 4.
 ## How this script fixes the keyboard bug
 This three-step solution for fixing this bug by modifying Xmodmap comes from <b>ludovic</b> in the Qubes OS Forum who points to the archlinux wiki Xmodmap page: <br>
 &#8226; https://forum.qubes-os.org/t/no-pipe-symbol-on-purism-with-qubes-r4-0/3569<br>
